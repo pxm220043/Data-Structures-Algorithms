@@ -1,3 +1,7 @@
+//==============================================================================================================================
+//using for loop to display all elements
+
+
 #include <iostream>
 using namespace std;
 
@@ -7,4 +11,22 @@ int main() {
   for (int i = 0; i < 5; i++) {
     cout << A[i] << endl;
   }
+ return 0;
+}
+
+
+//==============================================================================================================================
+//using for each to show all elements
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int A[5] = {1,2,3,4,5};
+  for (int x : A) {
+    cout << x << endl;
+  }
+  return 0; 
 }
